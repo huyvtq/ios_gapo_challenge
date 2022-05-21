@@ -1,4 +1,6 @@
+
 # Gapo Challenge
+![Gapo](https://gapowork.com/wp-content/uploads/2021/06/gapowork-logo-color-1.svg)
 - Implement Notification List screen
 ## Demo on simulator
 ![Noti](noti_demo1.png) ![Noti](noti_demo2.png)
