@@ -1,10 +1,10 @@
 # Gapo Challenge
 - Implement Notification List screen
 ## Demo on simulator
-
+![Noti](noti_demo1.png) ![Noti](noti_demo2.png)
 ## Development
-- Language: Swift 
-- IDE: Xcode
+- Language: - Language: ![Swift](https://img.shields.io/badge/Swift-5.5-orange?style=flat-square) 
+- IDE: Xcode (version 13.2.1)
 
 ## Architecture
 - MVVM + Reactive programing
