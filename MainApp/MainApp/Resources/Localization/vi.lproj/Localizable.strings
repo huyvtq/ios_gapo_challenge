@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  application
+
+  Created by HuyQuoc on 26/03/2022.
+  
+*/
+"text_app_name" = "Gapo";
+"text_title_notification" = "Thông báo";

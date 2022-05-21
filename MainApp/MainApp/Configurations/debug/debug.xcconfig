@@ -1,0 +1,15 @@
+//
+//  debug.xcconfig
+//  application
+//
+//  Created by HuyQuoc on 26/03/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+SLASH=/
+PRODUCT_BUNDLE_IDENTIFIER = com.huyvtq.gapo-challenge-test
+BUNDLE_DISPLAY_NAME = GapoChallenge.dev
+PRODUCT_NAME = Gapo
+ENVIRONMENT = debug
+BASE_API_URL = https:$(SLASH)/gapowork.com
