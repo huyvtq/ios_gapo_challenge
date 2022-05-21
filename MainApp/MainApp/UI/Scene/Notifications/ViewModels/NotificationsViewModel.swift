@@ -77,7 +77,7 @@ class NotificationsViewModel {
         }
     }
     
-    private func searchNotification(by keyword: String){
+    func searchNotification(by keyword: String){
         //Emit show loading
         self.onLoadingSubject.onNext(true)
         notificationRepository.findNotifications(by: keyword) { [weak self] result in
@@ -91,7 +91,7 @@ class NotificationsViewModel {
         }
     }
     
-    private func markRead(_ notification: NotificationItemViewModel){
+    func markRead(_ notification: NotificationItemViewModel){
         notificationRepository.markRead(notification.id) { [weak self] error in
             guard error == nil else {
                 log.error(error)

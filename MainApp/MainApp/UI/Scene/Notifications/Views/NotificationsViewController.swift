@@ -126,8 +126,10 @@ class NotificationsViewController: BaseViewController {
         switch state{
         case State.searching:
             searchView.isHidden = false
+            searchTextField.becomeFirstResponder()
         case State.normal:
             searchView.isHidden = true
+            searchTextField.endEditing(true)
         }
     }
 }
