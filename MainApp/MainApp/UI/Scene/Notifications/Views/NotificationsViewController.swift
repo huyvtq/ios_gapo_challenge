@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 //MARK: - NotificationsViewController
 class NotificationsViewController: BaseViewController {
-    
+    //Fix notification UI on fixbug branch
     enum State {
         case searching
         case normal
