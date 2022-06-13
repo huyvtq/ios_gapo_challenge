@@ -11,6 +11,7 @@ import RxCocoa
 //MARK: - NotificationsViewController
 class NotificationsViewController: BaseViewController {
     //Fix notification UI on fixbug branch
+    //duplicate fixbug
     enum State {
         case searching
         case normal
